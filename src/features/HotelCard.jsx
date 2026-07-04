@@ -1,10 +1,11 @@
 import React from 'react';
 import { Star, MapPin } from 'lucide-react';
 import Badge from '../components/Badge';
+import { Link } from 'react-router-dom';
 
 const HotelCard = ({ hotel }) => {
   return (
-    <div className="flex flex-col bg-[var(--color-crisp-white)] rounded-[4px] hover-transition shadow-ambient hover:shadow-ambient-hover overflow-hidden">
+    <Link to={`/hotel/${hotel.id}`} className="flex flex-col bg-[var(--color-crisp-white)] rounded-[4px] hover-transition shadow-ambient hover:shadow-ambient-hover overflow-hidden h-full">
       <div className="relative h-64 w-full">
         <img 
           src={hotel.thumbnail} 
@@ -40,7 +41,7 @@ const HotelCard = ({ hotel }) => {
           </div>
         </div>
       </div>
-    </div>
+    </Link>
   );
 };
 
