@@ -1,6 +1,6 @@
 # Hotel Management Platform (Horizon Elite)
 
-**Preview:** [https://dummy-preview-link-hotel.app](https://dummy-preview-link-hotel.app)
+**Preview:** [hotel-management-api-ten-beta.vercel.app](Hotel-Management-API)
 
 A fully responsive, component-based frontend application for a luxury hotel management platform. This project showcases a "Quiet Luxury" design system using deep navies, soft slates, accent golds, and crisp whites.
 
